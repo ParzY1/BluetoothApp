@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Bluetooth</string>
+    <string name="scanning">Scanning</string>
+</resources>

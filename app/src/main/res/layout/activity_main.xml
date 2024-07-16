@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple_200"
+    android:id="@+id/linearLayout"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:background="@color/green"
+                android:textAlignment="center"
+                android:text="BlueToothApp"
+                />
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/listPairedDevices"
+                android:background="@color/purple_200"
+                android:divider="@color/black"
+                android:dividerHeight="2dp"/>
+            <TextView
+                android:id="@+id/text_devices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:background="@color/green"
+                android:textAlignment="center"
+                android:text="New devices"
+                />
+            <ListView
+                android:backgroundTint="@color/ocean_blue"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/listNewDevices"
+                android:background="@color/purple_200"
+                android:divider="@color/orange"
+                android:dividerHeight="2dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:textColor="@color/white"
+                android:text="SCAN DEVICES"
+                android:textSize="35sp"
+                android:backgroundTint="@color/black"
+                android:id="@+id/scanDevices"/>
+            <TextView
+                android:id="@+id/text_my_mac"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:text="My device MAC:"
+                android:background="@color/green"
+                />
+            <Button
+                android:id="@+id/makeVisibleMyDevice"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:textColor="@color/white"
+                android:text="VISIBILITY TO OTHER DEVICES"
+                android:textSize="15sp"
+                android:backgroundTint="@color/black"
+                />
+            <TextView
+                android:id="@+id/text_log"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:text="Log:"
+                android:background="@color/orange"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+<!--Marcel Parzyszek 4P-->
